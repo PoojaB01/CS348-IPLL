@@ -1,5 +1,5 @@
 
-#line 3 "lex.yy.c"
+#line 3 "<stdout>"
 
 #define  YY_INT_ALIGNED short int
 
@@ -360,15 +360,15 @@ struct yy_trans_info
 	flex_int32_t yy_verify;
 	flex_int32_t yy_nxt;
 	};
-static const flex_int16_t yy_accept[65] =
+static const flex_int16_t yy_accept[70] =
     {   0,
         0,    0,   27,   26,    1,    2,   22,   23,   20,   18,
        16,   19,   25,   15,   14,   24,   24,   24,   24,   24,
-       24,   24,   24,   24,   24,   24,   25,   17,   24,   24,
-       24,   13,   24,   24,   24,   24,   24,   12,   24,   24,
-       24,   21,    6,    9,   24,   24,   24,    4,   24,   24,
-        7,   24,   24,   10,   24,    5,   24,   24,   11,   24,
-       24,    8,    3,    0
+       24,   24,   24,   24,   24,   24,    0,   25,    0,   17,
+       24,   24,   24,   13,   24,   24,   24,   24,   24,   12,
+       24,   24,   25,    0,   25,   24,   21,    6,    9,   24,
+       24,   24,    4,   24,   24,    7,   24,   24,   10,   24,
+        5,   24,   24,   11,   24,   24,    8,    3,    0
     } ;
 
 static const YY_CHAR yy_ec[256] =
@@ -410,56 +410,60 @@ static const YY_CHAR yy_meta[31] =
         2,    2,    2,    2,    2,    2,    2,    2,    2,    2
     } ;
 
-static const flex_int16_t yy_base[66] =
+static const flex_int16_t yy_base[71] =
     {   0,
-        0,    0,   69,   70,   70,   70,   70,   70,   70,   70,
-       70,   70,   57,   53,   70,    0,   47,    9,   41,   39,
-       39,   35,   42,   35,   44,   31,   46,   70,    0,   35,
-       26,    0,   36,   26,   24,   26,   35,    0,   22,   26,
-       25,    0,   36,    0,   26,   23,   25,    0,   14,   17,
-       70,   19,   12,    0,   19,    0,   18,   21,    0,    8,
-       10,    0,    0,   70,   30
+        0,    0,   81,   82,   82,   82,   82,   82,   82,   82,
+       82,   82,   21,   66,   82,    0,   60,   11,   54,   52,
+       52,   48,   55,   48,   57,   44,   59,   24,   30,   82,
+        0,   48,   39,    0,   49,   39,   37,   39,   48,    0,
+       35,   39,   27,   49,   48,   36,    0,   47,    0,   37,
+       34,   36,    0,   25,   28,   82,   30,   23,    0,   30,
+        0,   29,   32,    0,   18,   21,    0,    0,   82,   40
     } ;
 
-static const flex_int16_t yy_def[66] =
+static const flex_int16_t yy_def[71] =
     {   0,
-       64,    1,   64,   64,   64,   64,   64,   64,   64,   64,
-       64,   64,   64,   64,   64,   65,   65,   65,   65,   65,
-       65,   65,   65,   65,   65,   65,   64,   64,   65,   65,
-       65,   65,   65,   65,   65,   65,   65,   65,   65,   65,
-       65,   65,   65,   65,   65,   65,   65,   65,   65,   65,
-       64,   65,   65,   65,   65,   65,   65,   65,   65,   65,
-       65,   65,   65,    0,   64
+       69,    1,   69,   69,   69,   69,   69,   69,   69,   69,
+       69,   69,   69,   69,   69,   70,   70,   70,   70,   70,
+       70,   70,   70,   70,   70,   70,   69,   69,   69,   69,
+       70,   70,   70,   70,   70,   70,   70,   70,   70,   70,
+       70,   70,   69,   69,   69,   70,   70,   70,   70,   70,
+       70,   70,   70,   70,   70,   69,   70,   70,   70,   70,
+       70,   70,   70,   70,   70,   70,   70,   70,    0,   69
     } ;
 
-static const flex_int16_t yy_nxt[101] =
+static const flex_int16_t yy_nxt[113] =
     {   0,
         4,    5,    6,    7,    8,    9,   10,   11,   12,    4,
        13,   14,   15,    4,   16,   17,   16,   18,   19,   20,
        16,   21,   16,   16,   16,   22,   23,   24,   25,   26,
-       31,   29,   63,   32,   62,   61,   60,   59,   58,   57,
-       56,   55,   54,   53,   52,   51,   50,   49,   48,   47,
-       46,   45,   44,   43,   42,   41,   27,   40,   39,   38,
-       37,   36,   35,   34,   33,   30,   28,   27,   64,    3,
-       64,   64,   64,   64,   64,   64,   64,   64,   64,   64,
-       64,   64,   64,   64,   64,   64,   64,   64,   64,   64,
-       64,   64,   64,   64,   64,   64,   64,   64,   64,   64
+       27,   28,   33,   27,   28,   34,   44,   43,   44,   29,
+       45,   31,   29,   68,   67,   29,   66,   65,   64,   63,
+       62,   61,   60,   59,   58,   57,   56,   55,   45,   45,
+       54,   53,   52,   51,   50,   49,   48,   47,   46,   43,
+       42,   41,   40,   39,   38,   37,   36,   35,   32,   30,
+       69,    3,   69,   69,   69,   69,   69,   69,   69,   69,
+       69,   69,   69,   69,   69,   69,   69,   69,   69,   69,
 
+       69,   69,   69,   69,   69,   69,   69,   69,   69,   69,
+       69,   69
     } ;
 
-static const flex_int16_t yy_chk[101] =
+static const flex_int16_t yy_chk[113] =
     {   0,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
-       18,   65,   61,   18,   60,   58,   57,   55,   53,   52,
-       50,   49,   47,   46,   45,   43,   41,   40,   39,   37,
-       36,   35,   34,   33,   31,   30,   27,   26,   25,   24,
-       23,   22,   21,   20,   19,   17,   14,   13,    3,   64,
-       64,   64,   64,   64,   64,   64,   64,   64,   64,   64,
-       64,   64,   64,   64,   64,   64,   64,   64,   64,   64,
-       64,   64,   64,   64,   64,   64,   64,   64,   64,   64
+       13,   13,   18,   28,   28,   18,   29,   43,   29,   13,
+       29,   70,   28,   66,   65,   43,   63,   62,   60,   58,
+       57,   55,   54,   52,   51,   50,   48,   46,   45,   44,
+       42,   41,   39,   38,   37,   36,   35,   33,   32,   27,
+       26,   25,   24,   23,   22,   21,   20,   19,   17,   14,
+        3,   69,   69,   69,   69,   69,   69,   69,   69,   69,
+       69,   69,   69,   69,   69,   69,   69,   69,   69,   69,
 
+       69,   69,   69,   69,   69,   69,   69,   69,   69,   69,
+       69,   69
     } ;
 
 static yy_state_type yy_last_accepting_state;
@@ -476,37 +480,12 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "pascal_spec.l"
-#line 2 "pascal_spec.l"
-    #define MAX_SIZE 1024
-    #define MAXLEN 100
-
-    // used to check if token is first word in a line
-    int new_line = 1;
-
-    // indicates current line number
-    int line_no = 1;
-
-    void printCode(int);
-
-    // specify name of output file
-    char *outputFile = "lex_output.txt";
-    char *id_table_file = "id_table.txt";
-    char *int_table_file = "int_table.txt";
-
-    // pointer to output file
-    FILE *fout;
-
-    // data structure to store ids
-    char id_table[MAX_SIZE][MAXLEN];
-    int id_table_size = 0;
-
-    // data structure to store ints
-    char int_table[MAX_SIZE][MAXLEN];
-    int int_table_size = 0;
-    
-#line 509 "lex.yy.c"
-#line 510 "lex.yy.c"
+#line 1 "180101057.l"
+#line 2 "180101057.l"
+#include "180101057_pascal.h"    
+#include "180101057_pascal.cpp"
+#line 488 "<stdout>"
+#line 489 "<stdout>"
 
 #define INITIAL 0
 
@@ -723,9 +702,9 @@ YY_DECL
 		}
 
 	{
-#line 36 "pascal_spec.l"
+#line 11 "180101057.l"
 
-#line 729 "lex.yy.c"
+#line 708 "<stdout>"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -752,13 +731,13 @@ yy_match:
 			while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 				{
 				yy_current_state = (int) yy_def[yy_current_state];
-				if ( yy_current_state >= 65 )
+				if ( yy_current_state >= 70 )
 					yy_c = yy_meta[yy_c];
 				}
 			yy_current_state = yy_nxt[yy_base[yy_current_state] + yy_c];
 			++yy_cp;
 			}
-		while ( yy_base[yy_current_state] != 70 );
+		while ( yy_base[yy_current_state] != 82 );
 
 yy_find_action:
 		yy_act = yy_accept[yy_current_state];
@@ -784,7 +763,7 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 37 "pascal_spec.l"
+#line 12 "180101057.l"
 {
                 // Do nothing
                 // Ignore whitespaces
@@ -793,7 +772,7 @@ YY_RULE_SETUP
 case 2:
 /* rule 2 can match eol */
 YY_RULE_SETUP
-#line 42 "pascal_spec.l"
+#line 17 "180101057.l"
 {
                 // indicate start of new line
                 line_no ++;
@@ -802,223 +781,204 @@ YY_RULE_SETUP
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 48 "pascal_spec.l"
+#line 23 "180101057.l"
 { 
-                // print token code
+                // print output line
                 printCode(1);
-                fprintf(fout, " \n");
             }
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 54 "pascal_spec.l"
+#line 28 "180101057.l"
 {
-                // print token code
+                // print output line
                 printCode(2);
-                fprintf(fout, " \n");
             }
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 60 "pascal_spec.l"
+#line 33 "180101057.l"
 {
-                // print token code
+                // print output line
                 printCode(3);
-                fprintf(fout, " \n");
             }
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 66 "pascal_spec.l"
+#line 38 "180101057.l"
 {
-                // print token code
+                // print output line
                 printCode(4);
-                fprintf(fout, " \n");
             }
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 72 "pascal_spec.l"
+#line 43 "180101057.l"
 {
-                // print token code
+                // print output line
                 printCode(5);
-                fprintf(fout, " \n");
             }
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 78 "pascal_spec.l"
+#line 48 "180101057.l"
 {
-                // print token code
+                // print output line
                 printCode(6);
-                fprintf(fout, " \n");
             }
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 84 "pascal_spec.l"
+#line 53 "180101057.l"
 {
-                // print token code
+                // print output line
                 printCode(7);
-                fprintf(fout, " \n");
             }
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 90 "pascal_spec.l"
+#line 58 "180101057.l"
 {
-                // print token code
+                // print output line
                 printCode(8);
-                fprintf(fout, " \n");
             }
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 96 "pascal_spec.l"
+#line 63 "180101057.l"
 {
-                // print token code
+                // print output line
                 printCode(9);
-                fprintf(fout, " \n");
             }
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
-#line 102 "pascal_spec.l"
+#line 68 "180101057.l"
 {
-                // print token code
+                // print output line
                 printCode(10);
-                fprintf(fout, " \n");
             }
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
-#line 108 "pascal_spec.l"
+#line 73 "180101057.l"
 {
-                // print token code
+                // print output line
                 printCode(11);
-                fprintf(fout, " \n");
             }
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
-#line 114 "pascal_spec.l"
+#line 78 "180101057.l"
 {
-                // print token code
+                // print output line
                 printCode(12);
-                fprintf(fout, " \n");
             }
 	YY_BREAK
 case 15:
 YY_RULE_SETUP
-#line 120 "pascal_spec.l"
+#line 83 "180101057.l"
 {
-                // print token code
+                // print output line
                 printCode(13);
-                fprintf(fout, " \n");
             }
 	YY_BREAK
 case 16:
 YY_RULE_SETUP
-#line 126 "pascal_spec.l"
+#line 88 "180101057.l"
 {
-                // print token code
+                // print output line
                 printCode(14);
-                fprintf(fout, " \n");
             }
 	YY_BREAK
 case 17:
 YY_RULE_SETUP
-#line 132 "pascal_spec.l"
+#line 93 "180101057.l"
 {
-                // print token code
+                // print output line
                 printCode(15);
-                fprintf(fout, " \n");
             }
 	YY_BREAK
 case 18:
 YY_RULE_SETUP
-#line 138 "pascal_spec.l"
+#line 98 "180101057.l"
 {
-                // print token code
+                // print output line
                 printCode(16);
-                fprintf(fout, " \n");
             }
 	YY_BREAK
 case 19:
 YY_RULE_SETUP
-#line 144 "pascal_spec.l"
+#line 103 "180101057.l"
 {
-                // print token code
+                // print output line
                 printCode(17);
-                fprintf(fout, " \n");
             }
 	YY_BREAK
 case 20:
 YY_RULE_SETUP
-#line 150 "pascal_spec.l"
+#line 108 "180101057.l"
 {
-                // print token code
+                // print output line
                 printCode(18);
-                fprintf(fout, " \n");
             }
 	YY_BREAK
 case 21:
 YY_RULE_SETUP
-#line 156 "pascal_spec.l"
+#line 113 "180101057.l"
 {
-                // print token code
+                // print output line
                 printCode(19);
-                fprintf(fout, " \n");
             }
 	YY_BREAK
 case 22:
 YY_RULE_SETUP
-#line 162 "pascal_spec.l"
+#line 118 "180101057.l"
 {
-                // print token code
+                // print output line
                 printCode(20);
-                fprintf(fout, " \n");
             }
 	YY_BREAK
 case 23:
 YY_RULE_SETUP
-#line 168 "pascal_spec.l"
+#line 123 "180101057.l"
 {
-                // print token code
+                // print output line
                 printCode(21);
-                fprintf(fout, " \n");
             }
 	YY_BREAK
 case 24:
 YY_RULE_SETUP
-#line 174 "pascal_spec.l"
+#line 128 "180101057.l"
 {
-                // print token code
-                printCode(22);
-                // print id value
-                fprintf(fout, "^%s\n", yytext);
+                string id = yytext;
+
+                // print output line
+                printCode(22, id);
+
                 // insert id in id-table
-                install_id(yytext);
+                install_id(id);
             }
 	YY_BREAK
 case 25:
 YY_RULE_SETUP
-#line 183 "pascal_spec.l"
+#line 138 "180101057.l"
 {
-                // print token code
-                printCode(23);
-                // print int value
-                fprintf(fout, "#%s\n", yytext);
-                // insert int in number-table
-                install_num(yytext);
+                string number = yytext;
+
+                // print output line
+                printCode(23, number);
+
+                // insert num in int_table
+                install_num(number);
             }
 	YY_BREAK
 case 26:
 YY_RULE_SETUP
-#line 192 "pascal_spec.l"
+#line 148 "180101057.l"
 ECHO;
 	YY_BREAK
-#line 1022 "lex.yy.c"
+#line 982 "<stdout>"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -1315,7 +1275,7 @@ static int yy_get_next_buffer (void)
 		while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 			{
 			yy_current_state = (int) yy_def[yy_current_state];
-			if ( yy_current_state >= 65 )
+			if ( yy_current_state >= 70 )
 				yy_c = yy_meta[yy_c];
 			}
 		yy_current_state = yy_nxt[yy_base[yy_current_state] + yy_c];
@@ -1343,11 +1303,11 @@ static int yy_get_next_buffer (void)
 	while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 		{
 		yy_current_state = (int) yy_def[yy_current_state];
-		if ( yy_current_state >= 65 )
+		if ( yy_current_state >= 70 )
 			yy_c = yy_meta[yy_c];
 		}
 	yy_current_state = yy_nxt[yy_base[yy_current_state] + yy_c];
-	yy_is_jam = (yy_current_state == 64);
+	yy_is_jam = (yy_current_state == 69);
 
 		return yy_is_jam ? 0 : yy_current_state;
 }
@@ -2023,24 +1983,8 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 192 "pascal_spec.l"
+#line 148 "180101057.l"
 
-
-
-void printCode(int x)
-{
-    // print line number when new line is started
-    if(new_line)
-    {
-        fprintf(fout, "%d\t\t", line_no);
-        new_line = 0;
-    }
-    else {
-        fprintf(fout, " \t\t");
-    }
-    // print token code
-    fprintf(fout, "%d\t\t", x);
-}
 
 // called by lex when input is exhausted
 int yywrap(void) 
@@ -2048,73 +1992,24 @@ int yywrap(void)
     return 1;
 }
 
-int install_id(char *symbol) 
-{
-    int present = 0;
-    for(int i = 0; i < id_table_size; i++)
-    {
-        if(strcmp(symbol, id_table[i]) == 0)
-        {
-            present = 1;
-        }
-    }
-    if(!present)
-    {
-        strcpy(id_table[id_table_size++], symbol);
-    }
-    return present;
-}
-
-int install_num(char *number) 
-{
-    int present = 0;
-    for(int i = 0; i < int_table_size; i++)
-    {
-        if(strcmp(number, int_table[i]) == 0)
-        {
-            present = 1;
-        }
-    }
-    if(!present)
-    {
-        strcpy(int_table[int_table_size++], number);
-    }
-    return present;
-}
-
-void print_id_table()
-{
-    FILE *fo = fopen(id_table_file, "w");
-    for(int i = 0; i < id_table_size; i++)
-    {
-        fprintf(fo, "%s\n", id_table[i]);
-    }
-    fclose(fo);
-}
-
-void print_int_table()
-{
-    FILE *fo = fopen(int_table_file, "w");
-    for(int i = 0; i < int_table_size; i++)
-    {
-        fprintf(fo, "%s\n", int_table[i]);
-    }
-    fclose(fo);
-}
-
 int main()
 {
-    fout = fopen(outputFile, "w");
+    fout.open(outputFile, ios_base::out);
 
     // print table headers
-    fprintf(fout, "Line\tToken type\tToken Specifier\n");
+    fout << "Line\t\tToken type\tToken Specifier\n";
 
     // entry-point for lex
     yylex();
 
+    // print hashed tables
     print_id_table();
     print_int_table();
 
-    fclose(fout);
+    cout << "Check output files: " << endl;
+    cout << outputFile << endl;
+    cout << id_table_file << endl;
+    cout << int_table_file << endl;
+    fout.close();
     return 1;
 }
